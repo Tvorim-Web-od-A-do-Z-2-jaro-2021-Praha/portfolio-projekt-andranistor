@@ -1,0 +1,98 @@
+body {
+  color: #282425;
+  background-color: #fff1e6;
+}
+
+h1,
+h2,
+h3 {
+  color: #756158;
+}
+
+.header--style {
+  background-color: rgb(147, 58, 58);
+  padding: 10px;
+}
+
+.header__title--golden {
+  color: goldenrod;
+  margin: 5px;
+}
+
+.intro__subtitle--text {
+  color: #282425;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.intro__woman-illustration {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+
+.intro__woman-illustration img {
+  width: auto;
+  height: 100%;
+  margin-left: -30px;
+}
+
+.description__web-dev {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px goldenrod;
+}
+
+.skills__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__html-css {
+  display: flex;
+}
+
+.skills__html-css,
+.skills__js,
+.skills__other {
+  width: auto;
+  min-width: 250px;
+  max-width: 400px;
+  border: solid 1px rgb(147, 58, 58);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(147, 58, 58);
+  padding: 10px;
+}
+
+.skills__logo {
+  height: 70px;
+}
+
+.skills__logo--name {
+  text-align: center;
+  font-weight: 600;
+}
+
+.skills__bem--wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.skills__bem--logo {
+  height: 50px;
+}
+
+.skills__github--wrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+footer a {
+  color: #7b7673;
+  margin-right: 5px;
+}
